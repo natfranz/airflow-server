@@ -209,13 +209,13 @@ __marimo__/
 
 .git
 .env
-.DS_Store
-airflow_settings.yaml
-__pycache__/
-astro
 .venv
+.DS_Store
+__pycache__/
+airflow_settings.yaml
 airflow-webserver.pid
 webserver_config.py
 airflow.cfg
 airflow.db
 /.idea
+logs
