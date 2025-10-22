@@ -115,4 +115,11 @@ podman-compose up -d
 ```
 
 Wait ~30 seconds for initialization, then visit http://localhost:8080
+
 Login with airflow/airflow
+
+To read the logs
+
+```
+cat logs/scheduler/2025-10-22/dag_factory_loader.py.log
+```
