@@ -96,3 +96,23 @@ airflow-server/
     └── output/
 
 ```
+
+Setting up local environment with Docker
+```bash
+docker-compose build
+```
+```bash
+docker-compose up -d
+```
+
+Setting up local environment with Podman
+```bash
+podman build -t airflow-server .
+```
+
+```bash
+podman-compose up -d
+```
+
+Wait ~30 seconds for initialization, then visit http://localhost:8080
+Login with airflow/airflow
