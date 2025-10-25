@@ -29,7 +29,7 @@ docker-compose build
 docker-compose up -d
 ```
 
-### Setting up local environment with Podman
+### Setting up a local environment with Podman
 
 1. Build the image from docket-compose.
 ```bash
