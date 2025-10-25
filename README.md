@@ -1,6 +1,6 @@
 # airflow-server
 
-Airflow server for ETL workflows. Uses [dag factory](https://www.astronomer.io/docs/learn/dag-factory) from Astronomer.
+Airflow server for ETL workflows. Uses the [dag factory](https://www.astronomer.io/docs/learn/dag-factory) from Astronomer.
 
 ## Project structure
 ```
