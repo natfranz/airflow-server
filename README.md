@@ -12,7 +12,7 @@ Airflow server for ETL workflows. Uses the [dag factory](https://www.astronomer.
 ├── dags
 ├── docker-compose.yml
 ├── include
-│   ├── dags
+│   ├── dag_configs
 │   └── sql
 ├── plugins
 ├── requirements.txt

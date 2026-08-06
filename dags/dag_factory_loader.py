@@ -7,7 +7,7 @@ from dagfactory import load_yaml_dags
 # Get logger
 logger = logging.getLogger(__name__)
 
-config_dir = "/opt/airflow/include/dags"
+config_dir = "/opt/airflow/include/dag_configs"
 
 # Log the config file path
 logger.info(f"Loading DAGs from config file: {config_dir}")
